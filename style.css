@@ -53,4 +53,6 @@ main{
     margin-left: 10%;
     
 }
-
+.button:hover{
+    transform: scale(1.5);
+}
