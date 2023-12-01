@@ -66,6 +66,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     padding: 38px 26px;
+    gap: 8px;
     /* gap: 26px; */
 }
 main h1{
@@ -82,6 +83,8 @@ footer{
     height: 10%;
     justify-content: center;
     align-items: center;
+    /* display: flex; */
+    margin-left: 16px;
 }
 footer button{
     color: #fff;
@@ -98,4 +101,41 @@ footer button{
     cursor: pointer;
     
 }
-    
+.container{
+    border: solid #F27706 1px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    width: 330px;
+    height: 60px;
+    padding: 1.5%;
+}
+.logoEmail{
+    background-color: #F4E2D1;
+    height: 51px;
+    width: 51px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+
+}
+.logoLoc{
+    background-color: #F4E2D1;
+    height: 51px;
+    width: 51px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+
+}
+.logoPhone{
+    background-color: #F4E2D1;
+    height: 51px;
+    width: 51px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+
+}
