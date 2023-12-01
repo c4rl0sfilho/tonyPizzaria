@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, transparent 1%, #F27706 99%, #FC7900 99%);
+}
+header{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    gap: 16px;
+
+
+}
+.photoPerfil img{
+    width: 100%;
+    height: 100%;
+}
+.search{
+    width: 300px;
+    height: 40px;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 16px;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 40px;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    border-radius: 16px;
+    padding: 1%;
+}
+.categorias{
+    display: flex;
+    fle
+}
